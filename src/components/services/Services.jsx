@@ -21,31 +21,31 @@ export const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Development Websites</p>
+              <p>Design of Services</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Development Websites</p>
+              <p>Analysis, Engineering </p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Development Websites</p>
+              <p>UX/UI Interface Design</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Development Websites</p>
+              <p>SEO Website Promotion</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Development Websites</p>
+              <p>Branding</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Development Websites</p>
+              <p>Creation of Logos</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Development Websites</p>
+              <p>Responsive Design and Redesign</p>
             </li>
           </ul>
         </article>
@@ -59,7 +59,7 @@ export const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Development Websites</p>
+              <p>Wordpress Development</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
@@ -67,7 +67,15 @@ export const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Development Websites</p>
+              <p>Web Application Development</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Online Store Development</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Turnkey Website</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
@@ -75,15 +83,7 @@ export const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Development Websites</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Development Websites</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Development Websites</p>
+              <p>Website development for startups</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
@@ -105,35 +105,35 @@ export const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Development Websites</p>
+              <p>Influencer Marketing</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Development Websites</p>
+              <p>Social Media Marketing</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Development Websites</p>
+              <p>Social Media Management</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Development Websites</p>
+              <p>Digital Marketing</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Development Websites</p>
+              <p>Talent Management</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Development Websites</p>
+              <p>Full-Service Production</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Development Websites</p>
+              <p>Community Management</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Development Websites</p>
+              <p>Content Production/Creation</p>
             </li>
           </ul>
         </article>

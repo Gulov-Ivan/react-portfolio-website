@@ -12,43 +12,43 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Crypto Currency Dashbord & Financial Visualization',
-    github: 'http//github.com',
+    title: 'Online Store of Books and Accessories Shelf',
+    behance: 'https://www.behance.net',
     demo: 'https://www.behance.net/gallery/97727095/Book-store-Polka'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Crypto Currency Dashbord & Financial Visualization',
-    github: 'http//github.com',
-    demo: 'https://www.behance.net/gallery/97727095/Book-store-Polka'
+    title: 'Vintage Equipment Online Store Braun',
+    behance: 'https://www.behance.net/gallery/139434787/Online-store-Vintage-Love-Braun',
+    demo: 'https://www.behance.net/gallery/139434787/Online-store-Vintage-Love-Braun'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Crypto Currency Dashbord & Financial Visualization',
-    github: 'http//github.com',
+    title: 'Architectural Bureau of Timur and Sergey Voroninov',
+    behance: 'https://www.behance.net',
     demo: 'https://www.behance.net/gallery/97727095/Book-store-Polka'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Crypto Currency Dashbord & Financial Visualization',
-    github: 'http//github.com',
+    title: 'Service for Rent and Purchase of Electric Scooters',
+    behance: 'http//github.com',
     demo: 'https://www.behance.net/gallery/97727095/Book-store-Polka'
   },
   {
     id: 5,
     image: IMG5,
     title: 'Crypto Currency Dashbord & Financial Visualization',
-    github: 'http//github.com',
+    behance: 'http//github.com',
     demo: 'https://www.behance.net/gallery/97727095/Book-store-Polka'
   },
   {
     id: 6,
     image: IMG6,
     title: 'Crypto Currency Dashbord & Financial Visualization',
-    github: 'http//github.com',
+    behance: 'http//github.com',
     demo: 'https://www.behance.net/gallery/97727095/Book-store-Polka'
   },
 ]
@@ -61,7 +61,7 @@ export const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, github, demo}) => {
+          data.map(({id, image, title, behance, demo}) => {
             return (
               <article key={id} className='portfolio__item'>
               <div className="portfolio__item-image">
@@ -69,7 +69,7 @@ export const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className='portfolio__item-cta'>
-                <a href={github} className='btn' target='_blank'>Github</a>
+                <a href={behance} className='btn' target='_blank'>Behance</a>
                 <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
               </div>
             </article>
